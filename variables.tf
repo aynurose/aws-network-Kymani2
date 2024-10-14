@@ -35,7 +35,6 @@ variable "aws_network_settings" {
     tags               = optional(map(string))
   }))
   default     = {}
-#   description = "-(Optional) Artifact Registry configuration. See [more details](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/artifact_registry_repository)"
-}
+#   description = ""
 
 
